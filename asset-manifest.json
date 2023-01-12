@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/truthertube/static/css/main.b20861fb.css",
+    "main.js": "/truthertube/static/js/main.ee9c5db1.js",
+    "index.html": "/truthertube/index.html",
+    "main.b20861fb.css.map": "/truthertube/static/css/main.b20861fb.css.map",
+    "main.ee9c5db1.js.map": "/truthertube/static/js/main.ee9c5db1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b20861fb.css",
+    "static/js/main.ee9c5db1.js"
+  ]
+}
