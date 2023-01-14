@@ -3,6 +3,7 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import "./Searchpage.css";
 import ChannelRow from "./ChannelRow";
+import VideoRow from "./VideoRow";
 
 function Searchpage() {
     return(
@@ -22,6 +23,78 @@ function Searchpage() {
             numOfViews="8,007"
             description="America will never be the same again after all of the turmoil currently going on"
             verified
+            />
+            <VideoRow 
+            views="453"
+            subs="5.2k"
+            description="The war on drugs never stops"
+            timestamp="2 hours ago"
+            channel="R.A.Wwar"
+            title="The Never Ending War"
+            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
+            />
+            <VideoRow 
+            views="22k"
+            subs="18.6k"
+            description="The war on drugs never stops"
+            timestamp="6 days ago"
+            channel="R.A.Wwar"
+            title="The truth about Corruption"
+            image="https://tse2.mm.bing.net/th?id=OIP.miuDDriXU3hFQL0at4Z-pAHaEA&pid=Api&P=0"
+            />
+            <VideoRow 
+            views="12k"
+            subs="3.3k"
+            description="The war on drugs never stops"
+            timestamp="2 weeks ago"
+            channel="Mr.Y?"
+            title="End Game"
+            image="https://tse1.mm.bing.net/th?id=OIP.a7-yE-6MsCEgpfvradJ9-AHaEK&pid=Api&P=0"
+            />
+            <VideoRow 
+            views="453"
+            subs="5.2k"
+            description="The war on drugs never stops"
+            timestamp="2 hours ago"
+            channel="R.A.Wwar"
+            title="The Never Ending War"
+            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
+            />
+            <VideoRow 
+            views="453"
+            subs="5.2k"
+            description="The war on drugs never stops"
+            timestamp="2 hours ago"
+            channel="R.A.Wwar"
+            title="The Never Ending War"
+            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
+            />
+            <VideoRow 
+            views="453"
+            subs="5.2k"
+            description="The war on drugs never stops"
+            timestamp="2 hours ago"
+            channel="R.A.Wwar"
+            title="The Never Ending War"
+            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
+            />
+            <VideoRow 
+            views="453"
+            subs="5.2k"
+            description="The war on drugs never stops"
+            timestamp="2 hours ago"
+            channel="R.A.Wwar"
+            title="The Never Ending War"
+            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
+            />
+            <VideoRow 
+            views="453"
+            subs="5.2k"
+            description="The war on drugs never stops"
+            timestamp="2 hours ago"
+            channel="R.A.Wwar"
+            title="The Never Ending War"
+            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
             />
         </div>
         </div>
