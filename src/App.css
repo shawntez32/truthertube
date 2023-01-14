@@ -15,9 +15,17 @@
   align-items: center;
 }
 
+.header___start {
+  margin-left: 5px;
+  padding: 1px;
+}
+
+.header___start h2 {
+  color: red;
+}
+
 .header___input {
   width: 40%;
-  border: 1px solid gray;
 }
 
 .header___icon {
@@ -26,6 +34,10 @@
 
 .header___search {
   flex: 1;
+}
+
+.header___searchButton {
+  background-color: lightgray;
 }
 
 .app___page {

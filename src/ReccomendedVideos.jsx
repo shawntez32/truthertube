@@ -17,7 +17,7 @@ function ReccomendedVideos() {
             channelImg="https://tse3.mm.bing.net/th?id=OIP.UaCXcvpfxyLRZJNaP2mQgwHaE8&pid=Api&P=0"
              />
             <VideoCard
-            image="https://tse3.mm.bing.net/th?id=OIP.UaCXcvpfxyLRZJNaP2mQgwHaE8&pid=Api&P=0"
+            image="https://tse2.mm.bing.net/th?id=OIP.Drmkmjw1uperFI7un8QN6wHaE7&pid=Api&P=0"
             title="Truth about wallstreet"
             channel="NuancedThought"
             views="1.6million"
