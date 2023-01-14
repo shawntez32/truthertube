@@ -1,9 +1,14 @@
 .searchpage___filter {
     display: flex;
-    color: #606060;
+    color: #A5C9CA;
     margin-left: 20px;
 }
 
 .searchpage___filter h2 {
     font-size: 14px;
+}
+
+.searchpage {
+    background-color: #fff;
+    margin-left: 40px;
 }

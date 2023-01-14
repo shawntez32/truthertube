@@ -5,9 +5,9 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #fff;
-  margin-left: 5px;
-  margin-top: 5px;
+  background-color: #A5C9CA;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
 .header___input, .header___start, .header___icons {
@@ -16,7 +16,7 @@
 }
 
 .header___start {
-  margin-left: 5px;
+  padding-left: 5px;
   padding: 1px;
 }
 
@@ -42,4 +42,5 @@
 
 .app___page {
   display: flex;
+  background-color: #fff;
 }

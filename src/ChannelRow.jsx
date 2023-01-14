@@ -13,6 +13,7 @@ function ChannelRow({image, channel, subs, numOfViews, description, verified}) {
                 <p>{description}</p>
             </div>
         </div>
+        <hr />
         </>
     )
 }
