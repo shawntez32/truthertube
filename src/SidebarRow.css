@@ -5,7 +5,7 @@
 }
 
 .sidebarRow___icon {
-    color: #606060;
+    color: #4d4d4d;
     font-size: large !important;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .sidebarRow:hover {
-    background-color: lightgray;
+    background-color: #A5C9CA;
     cursor: pointer;
 }
 
