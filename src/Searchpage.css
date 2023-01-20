@@ -1,7 +1,8 @@
 .searchpage___filter {
     display: flex;
-    color: #A5C9CA;
+    color: darkgray;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .searchpage___filter h2 {
@@ -9,6 +10,6 @@
 }
 
 .searchpage {
-    background-color: #417879;
+    background-color: #fff;
     margin-left: 40px;
 }

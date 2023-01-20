@@ -7,6 +7,7 @@ import { Routes, Route, HashRouter as Router  } from 'react-router-dom';
 import Homepage from './Homepage';
 import Searchpage from './Searchpage';
 import Dummy from './Dummy';
+import Trending from './Trending';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <Header />
         <Routes>
           <Route exact path="/search" element={<Searchpage />} />
+          <Route exact path='/trending' element={<Trending />} />
           <Route exact path='/dummy' element={<Dummy />} />
-          <Route exact path='/' element={<Homepage />} />
+          <Route exact path='/' element={<Homepage link={"/trending"} />} />
         </Routes>
       </Router>
     </div>

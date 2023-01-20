@@ -2,11 +2,11 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import ReccomendedVideos from "./ReccomendedVideos";
 
-function Homepage() {
+function Homepage({link}) {
     return(
         <>
         <div className='app___page'>
-              <Sidebar />
+              <Sidebar link={link} />
               <ReccomendedVideos />        
             </div>
         </>
