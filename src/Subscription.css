@@ -1,0 +1,10 @@
+.app___page {
+    background-color: #fff;
+}
+
+.subscription___header {
+    display: flex;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 15px;
+}

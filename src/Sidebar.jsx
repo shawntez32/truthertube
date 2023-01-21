@@ -6,13 +6,13 @@ import { Link, Routes, Route, HashRouter as Router } from "react-router-dom";
 import "./Sidebar.css";
 import Trending from "./Trending";
 
-function Sidebar({link}) {
+function Sidebar({trending, subscriptions}) {
     return(
         <>
         <div className="sidebar">
             <SidebarRow selected Icon={Home}  title="Home" />
-            <SidebarRow link={link} Icon={Whatshot} title="Trending" />
-            <SidebarRow Icon={Subscriptions}  title="Subscription" />
+            <SidebarRow link={trending} Icon={Whatshot} title="Trending" />
+            <SidebarRow link={subscriptions} Icon={Subscriptions}  title="Subscription" />
             <hr/>
             <SidebarRow Icon={VideoLibrarySharp}  title="Library" />
             <SidebarRow Icon={HistorySharp} title="History" />

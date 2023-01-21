@@ -2,11 +2,14 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import ReccomendedVideos from "./ReccomendedVideos";
 
-function Homepage({link}) {
+function Homepage({trending, subscriptions}) {
     return(
         <>
         <div className='app___page'>
-              <Sidebar link={link} />
+              <Sidebar 
+              trending={trending} 
+              subscriptions={subscriptions}
+               />
               <ReccomendedVideos />        
             </div>
         </>

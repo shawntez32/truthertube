@@ -8,6 +8,7 @@ import Homepage from './Homepage';
 import Searchpage from './Searchpage';
 import Dummy from './Dummy';
 import Trending from './Trending';
+import Subscription from './Subscription';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <Header />
         <Routes>
           <Route exact path="/search" element={<Searchpage />} />
-          <Route exact path='/trending' element={<Trending />} />
+          <Route exact path="/subscriptions" element={<Subscription trending={"/trending"} subscriptions={"/subscriptions"} />} />
+          <Route exact path='/trending' element={<Trending trending={"/trending"} subscriptions={"/subscriptions"} />} />
           <Route exact path='/dummy' element={<Dummy />} />
-          <Route exact path='/' element={<Homepage link={"/trending"} />} />
+          <Route exact path='/' element={<Homepage trending={"/trending"} subscriptions={"/subscriptions"} />} />
         </Routes>
       </Router>
     </div>
