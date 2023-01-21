@@ -5,11 +5,14 @@ import "./Searchpage.css";
 import ChannelRow from "./ChannelRow";
 import VideoRow from "./VideoRow";
 
-function Searchpage() {
+function Searchpage({trending, subscriptions}) {
     return(
         <>
         <div className="app___page">
-            <Sidebar />
+            <Sidebar
+            trending={trending}
+            subscriptions={subscriptions}
+             />
         <div className="searchpage">
             <div className="searchpage___filter">
                 <TuneOutlined />
@@ -74,27 +77,27 @@ function Searchpage() {
             subs="5.2k"
             description="The war on drugs never stops"
             timestamp="2 hours ago"
-            channel="R.A.Wwar"
-            title="The Never Ending War"
-            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
+            channel="BlXX0W"
+            title="Epstein Island Secrets"
+            image="https://tse4.mm.bing.net/th?id=OIP.0Hj-XIHybh7gmhcfphltwAHaE8&pid=Api&P=0"
             />
             <VideoRow 
             views="453"
             subs="5.2k"
             description="The war on drugs never stops"
-            timestamp="2 hours ago"
+            timestamp="3 days ago"
             channel="R.A.Wwar"
-            title="The Never Ending War"
-            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
+            title="Scapegoat?"
+            image="https://tse1.mm.bing.net/th?id=OIP.5SjHxZT3bVg-SlOjSwBYaQHaE8&pid=Api&P=0"
             />
             <VideoRow 
             views="453"
             subs="5.2k"
-            description="The war on drugs never stops"
-            timestamp="2 hours ago"
-            channel="R.A.Wwar"
-            title="The Never Ending War"
-            image="https://tse3.mm.bing.net/th?id=OIP.9ges0k1GjhMTfJaCP91_ZAHaEL&pid=Api&P=0"
+            description="The true sickness we have in this world."
+            timestamp="4 weeks ago"
+            channel="RythimBlue"
+            title="The true sickness"
+            image="https://tse4.mm.bing.net/th?id=OIP.hED1sVOc1aClsdyIEFWC2wHaE8&pid=Api&P=0"
             />
         </div>
         </div>

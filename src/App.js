@@ -16,7 +16,7 @@ function App() {
       <Router>
       <Header />
         <Routes>
-          <Route exact path="/search" element={<Searchpage />} />
+          <Route exact path="/search" element={<Searchpage trending={"/trending"} subscriptions={"/subscriptions"} />} />
           <Route exact path="/subscriptions" element={<Subscription trending={"/trending"} subscriptions={"/subscriptions"} />} />
           <Route exact path='/trending' element={<Trending trending={"/trending"} subscriptions={"/subscriptions"} />} />
           <Route exact path='/dummy' element={<Dummy />} />

@@ -2,6 +2,7 @@ import { Whatshot } from "@material-ui/icons";
 import React from "react";
 import Sidebar from "./Sidebar";
 import VideoRow from "./VideoRow";
+import "./Trending.css";
 
 function Trending({trending, subscriptions}) {
     return (
@@ -15,10 +16,10 @@ function Trending({trending, subscriptions}) {
             <div className="trending___header">
                 <Whatshot />
                 <h2>Trending</h2>
-                <VideoRow />
-                <VideoRow />
-                <VideoRow />
             </div>
+                <VideoRow />
+                <VideoRow />
+                <VideoRow />
         </div>
         </div>
         </>
