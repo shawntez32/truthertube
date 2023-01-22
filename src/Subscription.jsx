@@ -4,13 +4,19 @@ import Sidebar from "./Sidebar";
 import VideoRow from "./VideoRow";
 import "./Subscription.css";
 
-function Subscription({trending, subscriptions}) {
+function Subscription({trending, subscriptions,library,history,yvids,lvids,wlater,smore}) {
     return (
         <>
         <div className="app___page">
             <Sidebar
             trending={trending} 
-            subscriptions={subscriptions}  
+            subscriptions={subscriptions}
+            library={library}
+            history={history}
+            yvids={yvids}
+            lvids={lvids}
+            wlater={wlater}
+            smore={smore}
              />
         <div className="subscription">
             <div className="subscription___header">

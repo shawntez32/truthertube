@@ -4,13 +4,19 @@ import Sidebar from "./Sidebar";
 import VideoRow from "./VideoRow";
 import "./Trending.css";
 
-function Trending({trending, subscriptions}) {
+function Trending({trending, subscriptions,library,history,yvids,lvids,wlater,smore}) {
     return (
         <>
         <div className="app___page">
             <Sidebar
             trending={trending} 
-            subscriptions={subscriptions} 
+            subscriptions={subscriptions}
+            library={library}
+            history={history}
+            yvids={yvids}
+            lvids={lvids}
+            wlater={wlater}
+            smore={smore}
             />
         <div className="trending">
             <div className="trending___header">

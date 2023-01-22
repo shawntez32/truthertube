@@ -6,7 +6,7 @@ import { Link, Routes, Route, HashRouter as Router } from "react-router-dom";
 import "./Sidebar.css";
 import Trending from "./Trending";
 
-function Sidebar({trending, subscriptions}) {
+function Sidebar({trending,subscriptions,library,history,yvids,lvids,wlater,smore}) {
     return(
         <>
         <div className="sidebar">
@@ -14,12 +14,12 @@ function Sidebar({trending, subscriptions}) {
             <SidebarRow link={trending} Icon={Whatshot} title="Trending" />
             <SidebarRow link={subscriptions} Icon={Subscriptions}  title="Subscription" />
             <hr/>
-            <SidebarRow Icon={VideoLibrarySharp}  title="Library" />
-            <SidebarRow Icon={HistorySharp} title="History" />
-            <SidebarRow Icon={OndemandVideoSharp}  title="Your Videos" />
-            <SidebarRow Icon={WatchLaterSharp}  title="Watch Later" />
-            <SidebarRow Icon={ThumbUpAltSharp} title="Liked Videos" />
-            <SidebarRow Icon={ExpandMoreSharp}  title="Show More" />
+            <SidebarRow link={library} Icon={VideoLibrarySharp}  title="Library" />
+            <SidebarRow link={history} Icon={HistorySharp} title="History" />
+            <SidebarRow link={yvids} Icon={OndemandVideoSharp}  title="Your Videos" />
+            <SidebarRow link={wlater} Icon={WatchLaterSharp}  title="Watch Later" />
+            <SidebarRow link={lvids} Icon={ThumbUpAltSharp} title="Liked Videos" />
+            <SidebarRow link={smore} Icon={ExpandMoreSharp}  title="Show More" />
             <hr />
         </div>
         <hr />

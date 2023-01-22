@@ -5,13 +5,19 @@ import "./Searchpage.css";
 import ChannelRow from "./ChannelRow";
 import VideoRow from "./VideoRow";
 
-function Searchpage({trending, subscriptions}) {
+function Searchpage({trending, subscriptions,library,history,yvids,lvids,wlater,smore}) {
     return(
         <>
         <div className="app___page">
             <Sidebar
             trending={trending}
             subscriptions={subscriptions}
+            library={library}
+            history={history}
+            yvids={yvids}
+            lvids={lvids}
+            wlater={wlater}
+            smore={smore}
              />
         <div className="searchpage">
             <div className="searchpage___filter">
