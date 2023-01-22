@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/truthertube/static/css/main.b4dd6468.css",
-    "main.js": "/truthertube/static/js/main.bc3555d6.js",
+    "main.css": "/truthertube/static/css/main.2307d206.css",
+    "main.js": "/truthertube/static/js/main.57edf016.js",
     "index.html": "/truthertube/index.html",
-    "main.b4dd6468.css.map": "/truthertube/static/css/main.b4dd6468.css.map",
-    "main.bc3555d6.js.map": "/truthertube/static/js/main.bc3555d6.js.map"
+    "main.2307d206.css.map": "/truthertube/static/css/main.2307d206.css.map",
+    "main.57edf016.js.map": "/truthertube/static/js/main.57edf016.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4dd6468.css",
-    "static/js/main.bc3555d6.js"
+    "static/css/main.2307d206.css",
+    "static/js/main.57edf016.js"
   ]
 }
