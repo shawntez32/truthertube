@@ -1,20 +1,17 @@
 import React from "react";
+import {DefaultPlayer as Video} from "react-html5video";
+import "./Video.css";
 
 function RickRoll() {
-    function play() {
-       var vid = document.getElementById("myVid");
-       vid.play();
-    }
+    
     return (
         
 
         <>
         <div className="app___page">
-        <video onClick={play} id="myVid" width="400" height="200">
-        <source src="//player.vimeo.com/video/658604398?portrait=0&autoplay=1" type="video/mp4"/>
-        Sorry, your browser does not support HTML5 video.
-        </video>
-            
+        <div className="video___frame">
+        <iframe src="https://archive.org/embed/Rick_Astley_Never_Gonna_Give_You_Up&autoplay=1" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+        </div>
         </div>
         </>
     )
