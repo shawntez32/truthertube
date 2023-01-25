@@ -46,7 +46,8 @@ function App() {
           yvids={"/yourvideos"} lvids={"/likedvideos"} wlater={"/watchlater"} smore={"/showmore"}
           />} />
           <Route exact path='/dummy' element={<Dummy />} />
-          <Route exact path="/videopage" element={<RickRoll />} />
+          <Route exact path="/videopage" element={<RickRoll video={"/videopage"} trending={"/trending"} subscriptions={"/subscriptions"} history={"/history"} 
+          yvids={"/yourvideos"} lvids={"/likedvideos"} wlater={"/watchlater"} smore={"/showmore"} />} />
           <Route exact path='/' element={<Homepage video={"/videopage"} trending={"/trending"} subscriptions={"/subscriptions"} history={"/history"} 
           yvids={"/yourvideos"} lvids={"/likedvideos"} wlater={"/watchlater"} smore={"/showmore"}
           />} />

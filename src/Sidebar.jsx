@@ -20,7 +20,6 @@ function Sidebar({trending,subscriptions,library,history,yvids,lvids,wlater,smor
             <SidebarRow link={wlater} Icon={WatchLaterSharp}  title="Watch Later" />
             <SidebarRow link={lvids} Icon={ThumbUpAltSharp} title="Liked Videos" />
             <SidebarRow link={smore} Icon={ExpandMoreSharp}  title="Show More" />
-            <hr />
         </div>
         <hr />
         </>

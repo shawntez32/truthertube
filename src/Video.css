@@ -2,3 +2,58 @@
     margin-top: 15px;
     margin-left: 18%;
 }
+
+.iframe {
+    margin-bottom: 15px;
+}
+
+.comment___add {
+    display: flex;
+    align-items: center;
+}
+
+.comment___box {
+    margin-left: 30%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.comment___addComment {
+    margin-top: 15px;
+    margin-right: 3px;
+    font-weight: 600;
+}
+
+.comment___new { 
+    margin-top: 15px;
+    width: 35%;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.comment___avi {
+    color: orange;
+    background-color: darkgray;
+    border-radius: 50%;
+    width: 24px;
+    height: 20px;
+    text-align: center;
+    padding: 3px;
+    margin-right: 7px;
+}
+
+.comment___button {
+    background-color: #A5C9CA;
+    margin-top: 12px;
+}
+
+.comment___default {
+    margin-top: 17px;
+    display: flex;
+    background-color: #A5C9CA;
+    width: 50%;
+}

@@ -12,7 +12,7 @@ function VideoRow({views, subs, description, timestamp,channel,title,image}) {
                     <p className="videoRow___description">{description}</p>
                 </div>
             </div>
-            <hr />
+            <hr className="vr_hr" />
         </>
     )
 }
