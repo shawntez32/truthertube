@@ -1,6 +1,6 @@
 .video___frame {
     margin-top: 15px;
-    margin-left: 18%;
+    margin-left: 10%;
 }
 
 .iframe {
@@ -13,10 +13,19 @@
 }
 
 .comment___box {
-    margin-left: 30%;
+    background-color: #A5C9CA;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 15px;
+    height: 42px;
+    overflow-y: scroll;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .comment___addComment {
@@ -27,7 +36,7 @@
 
 .comment___new { 
     margin-top: 15px;
-    width: 35%;
+    width: 60%;
     margin-left: 3px;
     margin-right: 3px;
     border-top: none;
@@ -47,13 +56,43 @@
 }
 
 .comment___button {
-    background-color: #A5C9CA;
+    background-color: red;
     margin-top: 12px;
+    color: #fff;
 }
 
 .comment___default {
-    margin-top: 17px;
+    margin-top: 10px;
     display: flex;
     background-color: #A5C9CA;
     width: 50%;
 }
+
+.videoRow, .vr_hr {
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.vr_hr {
+    color: red;
+    margin-top: 4px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
