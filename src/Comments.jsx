@@ -5,9 +5,10 @@ import "./Video.css";
 function Comments() {
     return(
         <>
-        <div className="comment__section">
+        <div className="comment___section">
             <hr />
             <div className="comment___box">
+            <h3>Comments</h3>
                 <div className="comment___add">
                 <h5 className="comment___addComment">Add Comment</h5>
                 <input className="comment___new" type="text" />
@@ -49,7 +50,7 @@ function Comments() {
                 </div>
                 <hr />
             </div>
-            <hr className="vr_hr" />
+            <h3 className="comment___related">Related Videos</h3>
             <VideoRow
                  image={"https://tse4.mm.bing.net/th?id=OIP.QdUYczu6fvdOQ94jXf8hEQHaEK&pid=Api&P=0"}
                  title={"Nothing but politics"}
